@@ -1,0 +1,17 @@
+body{
+    background-color:rgb(226, 156, 220);
+    text-align: center;
+    color: darkblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+
+}   
+
+a {
+    color:white;
+    text-decoration: none;
+}
+a:hover {
+    color:aquamarine
+    
+}
