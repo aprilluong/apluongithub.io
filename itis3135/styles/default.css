@@ -1,17 +1,25 @@
-body{
-    background-color:rgb(226, 156, 220);
-    text-align: center;
-    color: darkblue;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
 
-
-}   
-
-a {
-    color:white;
-    text-decoration: none;
-}
-a:hover {
-    color:aquamarine
-    
-}
+  th, td {
+    padding:8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+ th {
+    background-color: #333;
+   color: white;
+ }
+ tr:nth-child(even) {
+    background-color: #f2f2f2;
+ }
+ caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+ </style>
+ 
