@@ -1,0 +1,40 @@
+body {
+  background-color:rgb(226, 156, 220);
+
+  text-align: center;
+  color: darkblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body {
+  display: block;
+  margin: 8px;
+}
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding:8px;
+    text-align: left;
+    border-bottom: 1px solid white;
+  }
+ th {
+    background-color: #333;
+   color: white;
+ }
+ tr:nth-child(even) {
+    background-color: powderblue;
+ }
+ tr:nth-child(odd) {
+  background-color: darkgray;
+ }
+ caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+
+ 
