@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intital-scale=1.0">
+    <title>April Luong's Amazing Lion || ITIS3135 Introduction</title>
+    <link rel="stylesheet" href="styles/default.css">
+  </head>
+  <body>
+    <header>
+      <h1>Welcome!</h1>
+
+      <nav>
+        <a href="./">Home</a>
+        ||
+        <a href="about.html">Introduction</a>
+        ||
+        <a href="membership.html">Membership</a>
+        ||
+        <img src="images/vsalogo.jpeg" width="70">
+        ||
+        <a href="events.html">Events</a>
+        ||
+        <a href="contacts.html">Contact</a>
+        
+      
+      </nav>
+
+      <h2>Our upcoming Events</h2>
+      <h3>Boba Social</h3>
+      <p>Our last event of the school year! Come and socialize while drinking boba at Tea Fusion.
+    When at the cash register, say you are with VSA and get a 10% discount!
+    <ul>
+        <li>Time: 6:00pm</li>
+        <li>Date: April 26 2024</li>
+        <li>Location: 440 E Mccullough Dr</li>
+    </ul>
+      </p>
+      <img src="images/boba.JPG" width="200">
+      <h3>Elections</h3>
+      <p>It's time for UNCC VSA's election.. where you get to apply to be one board next school year. VSA members are allowed to vote and come to see the candidates run for a eboard position. </p>
+      <ul>
+        <li>Time: 5:30pm</li>
+        <li>Date: April 18 2024</li>
+        <li>Location: CHHS 376</li>
+    </ul>
+      <img src="images/election.jpg" width="200">
+      <h3>Are you smarter than a VSA intern?:</h3>
+      <p>Wanna test to see if you are smarter than a VSA intern? Come to our intern led GBM where our interns created their own very GBM, with questions, dares and prizes!! There will also be a boba run so make sure to place your order and get a DING TEA drink. </p>
+      <ul>
+        <li>Time: 5:30pm</li>
+        <li>Date: April 11 2024</li>
+        <li>Location: STORRS 110</li>
+    </ul>
+      <img src="images/intern.jpg" width="200">
+      <h3>Vietnight</h3>
+      <p>Our biggest event of the year, the 9th annual Vietnight, Yeu Lanh. There will be amazing performances, raffle prizes, virtnamse cuisine and much more. A cultural showcase that is filled with vietnamese culture. The dresscode is formal wear or cultural attires.</p>
+      <ul>
+        <li>Doors open @5:00pm</li>
+        <li>Show starts @6:00pm</li>
+        <li>Date: March 30 2024</li>
+        <li>Location: Student Union 340 || 8845 Craver RD</li>
+    </ul>
+      <img src="images/vn.jpg" width="200">
+      
+
+    
+
+
+
+
+
+<p>_____________________________________________________________________________________________________________________________________</p>
+      <h2 class="w3-center">Pictures of our events</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="images/bobaso.jpg" style="width:100%">
+  <img class="mySlides" src="images/casino.jpg" style="width:100%">
+  <img class="mySlides" src="images/culture.jpg" style="width:100%">
+  <img class="mySlides" src="images/holiday.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<p>Page Built by <a href="amazinglion.com">Amazing Lion Enterprises </a>&copy, 2024</a></p>
+
+
+ <a href="https://validator.w3.org/check?url=referer" id="validation_link_html">
+  <img style="border:0;width:88px;height:31px" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png" alt="Valid HTML!">
+</a>
+<a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
+<img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+</a>
+</body>
+</html>
